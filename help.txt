@@ -1,0 +1,12 @@
+style={{ direction: isRtl ? "rtl" : "ltr", textAlign: isRtl ? "right" : "left" }}
+
+{`space-y-6 ${isRtl ? "text-right" : "text-left"}`}
+
+${isRtl ? "flex-row-reverse" : ""}
+
+${isRtl ? "lg:order-4" : "lg:order-1"}
+
+${isRtl ? "ml-2" : "mr-2"}
+ dir={isRtl ? "rtl" : "ltr"}
+
+{`p-6 ${isRtl ? "lg:order-4" : "lg:order-1"}`}
